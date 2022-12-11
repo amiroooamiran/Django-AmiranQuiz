@@ -10,7 +10,7 @@ Hello , I'm American  From [Amiran.Tech](https://amiran.tech/)
 ```
     [ pip install requirments.txt]   
 ```
-😁and then you can Run the Server #0969DA
+😁and then you can Run the Server `#RRGGBB`
 
 ## Main Of The Quizs :
 
