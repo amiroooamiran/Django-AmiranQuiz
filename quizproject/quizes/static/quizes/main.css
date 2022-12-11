@@ -1,0 +1,115 @@
+/* ------------------------------ Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Montserrat+Alternates:wght@100&family=Poiret+One&family=Sacramento&family=Yellowtail&display=swap');
+
+/* font-family: 'Chakra Petch', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Yellowtail', cursive;
+font-family: 'Poiret One', cursive; */
+
+
+
+body{
+    background-color: #333;
+}
+
+.ithem-section{
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+    animation: 0.7s confrmsection;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+
+.modal-button{
+    background: none;
+    color: #fff;
+    text-decoration: underline #4d4c7d;
+    padding: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: x-large;
+    border: none;
+    transition: 0.5s;
+}
+
+.modal-button:hover{
+    text-shadow: 1px 1px 10px black;
+}
+
+@keyframes confrmsection {
+    0%{
+        top: -10%;
+    }
+    100%{
+        top: 20%;
+    }
+}
+
+.close-section{
+    float: right;
+}
+
+#confarmation h3{
+    color: #4d4c7d;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+}
+
+#confarmation h3 b{
+    text-decoration: underline;
+}
+
+#confarmation ul li{
+    display:ruby;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: large;
+}
+
+#confarmation ul li b{
+    background-color: #4d4c7d36;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+
+.quiz-section{
+    background-color: rgba(175, 175, 175, 0.233);
+    margin: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+#confarmation button{
+    padding: 5px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: larger;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.267);
+}
+
+.buttons-link{
+    float: right;
+    margin: 10px;
+}
+
+.buttons-link button{
+    border: none;
+    padding: 5px;
+    font-family: 'Yellowtail', cursive;
+    font-size: larger;
+    width: 100px;
+    border-radius: 30px;
+    color: #fff;
+    transition: 1s;
+}
+
+.buttons-link button:hover{
+    border-radius: 5px;
+    background-color: #333;
+}

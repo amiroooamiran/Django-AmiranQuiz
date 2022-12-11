@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'quizes/main.css' %}">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <h1 style="color: #fff;margin: 45px;">Quiz Names</h1>
+    <div class="quiz-section">
+        {% for obj in object_list %}
+        <button class="modal-button"
+            data-pk="{{obj.pk}}"
+            data-quiz="{{obj.name}}"
+            data-questions="{{obj.number_of_question}}"
+            data-dificluty = "{{obj.dificluty}}"
+            data-time = "{{obj.time}}"
+            data-pass = "{{obj.required_sorce_to_pass}}"
+            >
+            {{obj.name}}
+        </button>
+        | |
+        {% endfor %}
+    </div>
+
+    <div class="ithem-section" id="section-quiz">
+        <div class="close-section">
+            <i  onclick="closesection()" class="uil uil-times-square"></i>
+        </div>
+        <br>
+        <hr>
+        <div id="confarmation">
+
+        </div>
+        <br>
+        <hr>
+        <div class="buttons-link">
+            <button onclick="closesection()" style="background-color: red;">No</button>
+            <button style="background-color: rgb(38, 167, 38);" id="btnstart">Yes</button>
+        </div>
+    </div>
+
+    <script src="{% static 'quizes/main.js' %}"></script>
+</body>
+</html>

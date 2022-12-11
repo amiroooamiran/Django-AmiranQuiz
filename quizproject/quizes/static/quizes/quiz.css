@@ -1,0 +1,129 @@
+/* ------------------------------ Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Montserrat+Alternates:wght@100&family=Poiret+One&family=Sacramento&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+/* font-family: 'Chakra Petch', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Yellowtail', cursive;
+font-family: 'Poiret One', cursive; 
+font-family: 'La Belle Aurore', cursive;
+font-family: 'Monoton', cursive;
+*/
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.quiz-form {
+    float: right;
+    text-align: right;
+    background-color: #4d4c7da6;
+    padding: 20px;
+    width: 90%;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.quiz-form button{
+    text-align: center;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: x-large;
+    font-family: 'Chakra Petch', sans-serif;
+    border-radius: 30px;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+
+.quiz-form button:hover{
+    border-radius: 5px;
+}
+
+.answers-class {
+    color: black;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.144);
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.answers-class input {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.answers-class label{
+    font-size: larger;
+    font-family: 'Yekan';
+}
+
+.questions {
+    margin: 10px;
+}
+
+.questions b {
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: right;
+    background-color: rgba(134, 134, 134, 0.404);
+    padding: 5px;
+    border-radius: 2px;
+    color: #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
+}
+
+.not-visible{
+    display: none;
+}
+
+
+.answers-result{
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.377);
+    margin: 10px;
+    height: 20%;
+    color: #fff;
+    font-size: larger;
+    font-family: 'Chakra Petch', sans-serif;
+    border: solid 3px rgba(0, 0, 0, 0);
+    transition: 1s;
+}
+
+.answers-result:hover{
+    border: solid 3px rgb(0, 0, 0);
+}
+
+
+.bg-success{
+    background-color: #004d40;
+}
+
+.bg-ns{
+    background-color:#FFEBAD ;
+}
+
+.bg-denger{
+    background-color: #a31b1b;
+}
+
+
+
