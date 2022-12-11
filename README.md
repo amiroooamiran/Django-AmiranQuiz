@@ -1,11 +1,10 @@
 # Amiran-Quiz
 Hello , I'm American  From [Amiran.Tech](https://amiran.tech/)
-> in this project I Creating The Quiz application  With Django, JavaScript(jQury) and html:html:|css
-> if You Wand To Run This Project in your PC Do the steps 
+> in this project I Creating The Quiz application  With Django, JavaScript(jQury) and html|css
+> if You Wand To Run This Project in your PC Do the steps ( Comands For Windows ) .
 
 ##☝🏼the First : Created the Virtual EnvironMent For Python  
 ```
-
     Virtualenv Venv 
 ```
 
